@@ -1,0 +1,31 @@
+@media (min-width:641px) AND (max-width:960px) {
+  h1 {
+    padding-top:150px!important;
+  }
+}
+
+@media (min-width:320px) AND (max-width:640px) {
+  h1 {
+    padding-top:65px!important;
+  }
+
+  .h2_ban {
+    padding-bottom: 50px!important;
+
+  }
+
+  #histoire {
+    padding-top:0px!important;
+  }
+
+  .h1_hist {
+    padding-top:10px!important;
+  }
+}
+
+@media (min-width:1025px) {
+  h1 {
+    font-size:70px;
+  }
+}
+
