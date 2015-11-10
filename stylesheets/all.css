@@ -9518,6 +9518,24 @@ a {
 .img-frise {
   width: 300px; }
 
+/* line 136, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#facade {
+  position: relative;
+  background-image: url("../images/facade.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 600px; }
+
+/* line 145, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.gradientbox {
+  background: linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
+  opacity: 0.65;
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  z-index: 0; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
