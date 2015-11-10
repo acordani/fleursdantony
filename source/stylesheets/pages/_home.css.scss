@@ -1,0 +1,123 @@
+#banner {
+  position:relative;
+  // background-image: image-url('background.jpg');
+  // background-size: cover;
+  background-color: $black;
+
+    h1 {
+    font-size:50px;
+    font-weight: 400;
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-bottom:30px;
+    text-transform: uppercase;
+    color: white;
+    height: auto;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 0;
+  }
+    h2 {
+    font-size:25px;
+    font-weight: 300;
+    padding-bottom: 100px;
+    padding-left:20px;
+    color: white;
+  }
+    h3 {
+      color :white;
+    }
+    a {
+    margin: 0 50px 150px 40px;
+  }
+    .fleur {
+      position:absolute;
+      top:60px;
+
+      width:300px;
+      z-index:2;
+      left:570px;
+    }
+    .text-banner {
+      position:relative;
+      z-index:100;
+    }
+
+
+}
+
+#newsletter {
+  padding: 100px 0;
+}
+
+
+
+#features {
+  background-color: #0097E3;
+  padding: 100px 0;
+  color: white;
+  p {
+  padding-bottom: 30px
+  }
+  img {
+  padding-bottom: 20px;
+  }
+}
+
+#testimonials {
+  background-color: $gray-porcelaine;
+  padding-top: 60px;
+  position: relative;
+}
+
+.card{
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  padding: 20px 15px;
+  margin : 20px 0;
+  background-color: $white;
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight:300;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight:300;
+    text-align: justify;
+  }
+}
+
+.scroll-btn {
+  font-size:60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  bottom: -100px
+}
+
+.scroll-up {
+  font-size:60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  bottom: 20px
+}
+
+#histoire {
+  padding-top:100px;
+  background-color: $black;
+  color: white;
+  padding-bottom:120px;
+
+  .orchi {
+      position:absolute;
+      top: 670px;
+      left:0;
+    }
+}
+
+.img-frise {
+  width:300px;
+}

@@ -1,0 +1,25 @@
+/* -------------------------------------
+ * Base elements style (h1, h2, p, a, ul..)
+ * ============= IMPORTANT =============
+ * Before writing in this file, look if there is not
+ * already a Bootstrap SCSS variable that does the same job
+ * ------------------------------------- */
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+}
+
+a {
+  margin-top:0;
+}
+/*h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}*/
+
+
+.mt30 {
+  margin-top:30px;
+}
+
