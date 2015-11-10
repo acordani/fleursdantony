@@ -9483,7 +9483,7 @@ a {
 .img-frise {
   width: 300px; }
 
-@media (min-width: 641px) {
+@media (min-width: 641px) and (max-width: 960px) {
   /* line 127, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   h1 {
     padding-top: 150px !important; } }
