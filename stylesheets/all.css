@@ -9483,7 +9483,7 @@ a {
 .img-frise {
   width: 300px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   /* line 127, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   .fleur {
     position: absolute;
