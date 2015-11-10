@@ -9486,7 +9486,7 @@ a {
 @media (min-width: 641px) {
   /* line 127, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   h1 {
-    padding-top: 150px; } }
+    padding-top: 150px !important; } }
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
