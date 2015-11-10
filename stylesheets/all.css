@@ -9487,6 +9487,10 @@ a {
   /* line 127, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   h1 {
     padding-top: 150px !important; } }
+@media (min-width: 320px) {
+  /* line 133, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  h1 {
+    padding-top: 50px !important; } }
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
