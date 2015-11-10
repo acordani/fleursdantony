@@ -2,7 +2,7 @@
 /* -------------------------------------
  * Fonts
  * ------------------------------------- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -1402,7 +1402,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
-  background-color: white; }
+  background-color: #eeeeee; }
 
 /* line 36, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 input,
@@ -1415,11 +1415,11 @@ textarea {
 
 /* line 48, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #469AE0;
+  color: #0094E6;
   text-decoration: none; }
   /* line 52, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: #1f74ba;
+    color: #00639a;
     text-decoration: underline; }
   /* line 58, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -1449,7 +1449,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.4;
-  background-color: white;
+  background-color: #eeeeee;
   border: 1px solid #ddd;
   border-radius: 2px;
   transition: all 0.2s ease-in-out;
@@ -1495,7 +1495,7 @@ hr {
 /* line 9, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Raleway", "Helvetica", "sans-serif";
+  font-family: "Montserrat", "sans-serif";
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -1642,11 +1642,11 @@ mark,
 
 /* line 5, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #469AE0; }
+  color: #0094E6; }
 
 /* line 8, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #2381d0; }
+  color: #0073b3; }
 
 /* line 5, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
@@ -1686,11 +1686,11 @@ a.text-danger:hover {
 
 /* line 5, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #469AE0; }
+  background-color: #0094E6; }
 
 /* line 8, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #2381d0; }
+  background-color: #0073b3; }
 
 /* line 5, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
@@ -2859,7 +2859,7 @@ th {
     border-top: 2px solid #ddd; }
   /* line 62, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_tables.scss */
   .table .table {
-    background-color: white; }
+    background-color: #eeeeee; }
 
 /* line 75, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_tables.scss */
 .table-condensed > thead > tr > th,
@@ -3671,23 +3671,23 @@ select[multiple].input-lg,
 /* line 63, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #469AE0;
-  border-color: #308edc; }
+  background-color: #0094E6;
+  border-color: #0084cd; }
   /* line 11, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #2381d0;
-    border-color: #1e6eb2; }
+    background-color: #0073b3;
+    border-color: #005c8f; }
   /* line 21, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #469AE0;
-    border-color: #308edc; }
+    background-color: #0094E6;
+    border-color: #0084cd; }
   /* line 40, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary .badge {
-    color: #469AE0;
+    color: #0094E6;
     background-color: #fff; }
 
 /* line 67, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3780,7 +3780,7 @@ select[multiple].input-lg,
 
 /* line 88, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #469AE0;
+  color: #0094E6;
   font-weight: normal;
   border-radius: 0; }
   /* line 93, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3792,7 +3792,7 @@ select[multiple].input-lg,
     border-color: transparent; }
   /* line 107, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: #1f74ba;
+    color: #00639a;
     text-decoration: underline;
     background-color: transparent; }
   /* line 115, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3939,7 +3939,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #469AE0; }
+  background-color: #0094E6; }
 
 /* line 102, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4371,7 +4371,7 @@ tbody.collapse.in {
   /* line 46, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #469AE0; }
+    border-color: #0094E6; }
   /* line 59, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -4401,7 +4401,7 @@ tbody.collapse.in {
     /* line 96, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: white;
+      background-color: #eeeeee;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -4418,7 +4418,7 @@ tbody.collapse.in {
   /* line 131, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #469AE0; }
+    background-color: #0094E6; }
 
 /* line 144, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
@@ -4476,7 +4476,7 @@ tbody.collapse.in {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: white; } }
+      border-bottom-color: #eeeeee; } }
 
 /* line 224, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
@@ -5031,7 +5031,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.4;
       text-decoration: none;
-      color: #469AE0;
+      color: #0094E6;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -5050,7 +5050,7 @@ tbody.collapse.in {
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
-    color: #1f74ba;
+    color: #00639a;
     background-color: #eeeeee;
     border-color: #ddd; }
   /* line 51, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5060,8 +5060,8 @@ tbody.collapse.in {
   .pagination > .active > span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #469AE0;
-    border-color: #469AE0;
+    background-color: #0094E6;
+    border-color: #0094E6;
     cursor: default; }
   /* line 63, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .disabled > span,
@@ -5188,10 +5188,10 @@ a.label:hover, a.label:focus {
 
 /* line 48, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #469AE0; }
+  background-color: #0094E6; }
   /* line 7, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: #2381d0; }
+    background-color: #0073b3; }
 
 /* line 52, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
@@ -5248,7 +5248,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   /* line 41, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #469AE0;
+    color: #0094E6;
     background-color: #fff; }
   /* line 47, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item > .badge {
@@ -5309,7 +5309,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.4;
-  background-color: white;
+  background-color: #eeeeee;
   border: 1px solid #ddd;
   border-radius: 2px;
   transition: border 0.2s ease-in-out; }
@@ -5330,7 +5330,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #469AE0; }
+  border-color: #0094E6; }
 
 /* line 9, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
@@ -5435,7 +5435,7 @@ a.thumbnail.active {
   line-height: 22px;
   color: #fff;
   text-align: center;
-  background-color: #469AE0;
+  background-color: #0094E6;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   transition: width 0.6s ease; }
 
@@ -5584,8 +5584,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #469AE0;
-  border-color: #469AE0; }
+  background-color: #0094E6;
+  border-color: #0094E6; }
   /* line 90, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
@@ -5597,7 +5597,7 @@ a.list-group-item {
     color: inherit; }
   /* line 95, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-    color: #f5f9fd; }
+    color: #b3e4ff; }
 
 /* line 4, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
@@ -5961,22 +5961,22 @@ a.list-group-item-danger {
 
 /* line 251, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #469AE0; }
+  border-color: #0094E6; }
   /* line 6, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-heading {
     color: #fff;
-    background-color: #469AE0;
-    border-color: #469AE0; }
+    background-color: #0094E6;
+    border-color: #0094E6; }
     /* line 11, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #469AE0; }
+      border-top-color: #0094E6; }
     /* line 14, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading .badge {
-      color: #469AE0;
+      color: #0094E6;
       background-color: #fff; }
   /* line 20, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #469AE0; }
+    border-bottom-color: #0094E6; }
 
 /* line 254, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
@@ -9128,184 +9128,360 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
-/* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-.navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
-  background: white; }
-  /* line 4, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-logo {
-    width: 50px; }
-  /* line 7, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-container {
-    display: flex;
-    height: 70px;
-    align-items: center; }
-  /* line 12, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-item {
-    flex: 0 1 auto;
-    padding: 0 10px; }
-  /* line 16, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-search {
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 10px;
-    position: relative; }
-    /* line 22, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-search-btn {
-      line-height: 40px;
-      color: #E6E6E6;
-      border: none;
-      background: transparent;
-      position: absolute;
-      right: 10px;
-      top: -2px;
-      z-index: 1; }
-    /* line 32, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-search-input {
-      flex: 0 1 300px;
-      transition: all 0.15s ease;
-      line-height: 40px;
-      font-weight: lighter;
-      color: #666666;
-      border: 1px solid #E6E6E6;
-      border-radius: 5px;
-      padding: 0 10px;
-      font-size: 14px;
-      outline: none; }
-    /* line 44, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-search-input:focus {
-      border: 1px solid #CCCCCC; }
-  /* line 48, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-link {
-    color: #616668;
-    font-size: 14px; }
-    /* line 51, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-link:hover {
-      color: #da552f;
-      text-decoration: none; }
-  /* line 56, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-button {
-    padding: 0 20px;
-    border-radius: 20em;
-    line-height: 40px;
-    background-color: #D23333;
-    color: white;
-    font-size: 14px;
-    border: 2px solid #D23333; }
-    /* line 65, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-button:hover {
-      color: white;
-      background: #D23333;
-      border-color: #ac2626; }
-  /* line 71, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-wagon-dropdown-menu {
-    margin-top: 15px;
-    box-shadow: 1px 1px 4px #E6E6E6;
-    border-color: #E6E6E6; }
-    /* line 75, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-dropdown-menu li > a {
-      transition: color 0.3s ease;
-      font-weight: lighter !important;
-      color: #999999 !important;
-      font-size: 15px !important;
-      line-height: 22px !important;
-      padding: 10px 20px; }
-      /* line 82, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-      .navbar-wagon-dropdown-menu li > a:hover {
-        background: transparent !important;
-        color: black !important; }
-    /* line 87, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar.css.scss */
-    .navbar-wagon-dropdown-menu:before {
-      content: ' ';
-      height: 20px;
-      width: 20px;
-      position: absolute;
-      right: 10px;
-      top: -10px;
-      background-color: white;
-      transform: rotate(45deg);
-      border-left: 1px solid #E6E6E6;
-      border-top: 1px solid #E6E6E6; }
+/* -------------------------------------
+ * Base elements style (h1, h2, p, a, ul..)
+ * ============= IMPORTANT =============
+ * Before writing in this file, look if there is not
+ * already a Bootstrap SCSS variable that does the same job
+ * ------------------------------------- */
+/* line 9, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_base.css.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414; }
 
+/* line 14, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_base.css.scss */
+a {
+  margin-top: 0; }
+
+/*h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+}*/
+/* line 23, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_base.css.scss */
+.mt30 {
+  margin-top: 30px; }
+
+/* line 2, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_footer.css.scss */
+#footer {
+  padding: 30px 0;
+  background-color: #1e1e1e;
+  position: relative; }
+  /* line 6, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_footer.css.scss */
+  #footer p {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: #00BDEF; }
+
+/* line 14, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_footer.css.scss */
+.social {
+  font-size: 30px;
+  padding-left: 20px; }
+  /* line 17, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_footer.css.scss */
+  .social a:hover {
+    color: blue; }
+
+/* -------------------------------------
+ * Colors & Fonts
+ * ------------------------------------- */
+/* -------------------------------------
+ * Box model
+ * ------------------------------------- */
+/* -------------------------------------
+ * Navbar button
+ * ------------------------------------- */
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+/* -------------------------------------
+ * SCSS code
+ * ------------------------------------- */
+/* line 38, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+.navbar-wagon {
+  background: black;
+  font-family: "Montserrat", "sans-serif";
+  border: none;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 0 solid grey;
+  min-height: 0;
+  transition: background 0.4s ease; }
+  /* line 49, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-nav > li > a,
+  .navbar-wagon .navbar-nav > .open > a,
+  .navbar-wagon .navbar-nav > li > a:focus,
+  .navbar-wagon .navbar-nav > .open > a:focus {
+    outline: none;
+    color: white;
+    line-height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease; }
+  /* line 65, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-nav > li > a:hover,
+  .navbar-wagon .navbar-nav > .open > a:hover {
+    color: #FDB631;
+    background-color: transparent; }
+  /* line 71, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-brand,
+  .navbar-wagon .navbar-brand:hover {
+    outline: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  /* line 79, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-nav > li > a.btn {
+    line-height: 40px;
+    padding: 0 10px;
+    color: white;
+    border-radius: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: lightgrey;
+    font-size: 12px; }
+    /* line 88, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+    .navbar-wagon .navbar-nav > li > a.btn:hover {
+      background-color: #868686; }
+  /* line 93, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
+    height: 50px;
+    padding: 0px;
+    margin-top: 10px; }
+  /* line 99, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .img-avatar {
+    border: 2px solid white;
+    box-shadow: 0 0 2px #c8c8c8;
+    height: 46px;
+    margin-right: 10px;
+    border-radius: 50%; }
+  /* line 107, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-toggle {
+    border-color: #dddddd;
+    width: 45px;
+    background: transparent; }
+  /* line 113, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-nav > li > .dropdown-menu {
+    border-radius: 0; }
+  /* line 118, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
+    position: absolute;
+    background: white;
+    width: 10px;
+    content: "\00a0";
+    display: block;
+    left: 50%;
+    margin-left: -5px;
+    top: -5px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    z-index: -1; }
+
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+@media screen and (max-width: 768px) {
+  /* line 141, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
+    height: 50px; }
+  /* line 144, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_navbar2.css.scss */
+  .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
+    display: block;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0; } }
 /* -------------------------------------
  * Utilities classes
  * These are examples of utilities classes
  * Feel free to change them and create your own
  * ------------------------------------- */
-/* line 8, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
+/* line 7, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
 .padded {
-  padding-top: 5em;
-  padding-bottom: 5em; }
+  padding-top: 8em;
+  padding-bottom: 8em; }
 
-/* line 14, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
-.bg-text {
-  background: #4a4a4a; }
+/* line 11, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
+.bg-red {
+  background: #EE5F5B;
+  color: white; }
 
-/* line 17, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
-.bg-email {
-  background: #aeaeae; }
+/* line 15, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
+.bg-blue {
+  background: #0094E6;
+  color: white; }
 
-/* line 20, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
-.bg-twitter {
-  background: #00a3e1; }
+/* line 19, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
+.bg-yellow {
+  background: #FDB631;
+  color: white; }
 
 /* line 23, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
-.bg-facebook {
-  background: #3b5998; }
+.bg-orange {
+  background: #E67E22;
+  color: white; }
 
-/* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_avatar.scss */
-.avatar {
-  width: 30px;
-  border-radius: 50%; }
-  /* line 4, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_avatar.scss */
-  .avatar-bordered {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    border: white 1px solid; }
-  /* line 8, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_avatar.scss */
-  .avatar-large {
-    width: 50px; }
+/* line 27, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
+.bg-green {
+  background: #32B796;
+  color: white; }
 
-/* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-.icon-badge-container {
+/* line 31, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/layout/_utilities.css.scss */
+.bg-purple {
+  background: #6452BD;
+  color: white; }
+
+/* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+#titre {
+  background-color: #F0F1F5;
+  h1: 17px;
+  color: black;
+  padding-bottom: 50px; }
+  /* line 6, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+  #titre h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
+
+/* line 14, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+#contenu {
+  background-color: #F0F1F5;
+  position: relative; }
+  /* line 17, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+  #contenu img {
+    position: absolute;
+    bottom: 0;
+    right: 130px; }
+
+/* line 24, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+.blue {
+  color: #00A5EF; }
+
+/* line 28, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 5px 5px;
+  margin: 30px 0;
+  background-color: #fff; }
+  /* line 34, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+  .card h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  /* line 40, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
+  .card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify; }
+
+/* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#banner {
   position: relative;
-  font-size: 20px;
-  color: grey; }
+  background-color: #000000; }
+  /* line 7, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #banner h1 {
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 250px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: white;
+    height: auto;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 0; }
+  /* line 19, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #banner h2 {
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    color: white; }
+  /* line 26, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #banner h3 {
+    color: white; }
+  /* line 29, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #banner a {
+    margin: 0 50px 150px 40px; }
+  /* line 32, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #banner .fleur {
+    position: absolute;
+    top: 60px;
+    width: 300px;
+    z-index: 2;
+    left: 570px; }
+  /* line 40, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #banner .text-banner {
+    position: relative;
+    z-index: 100; }
 
-/* line 6, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-.user-badge-container {
-  position: relative;
-  width: 30px;
-  margin: 0 auto; }
+/* line 48, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#newsletter {
+  padding: 100px 0; }
 
-/* line 11, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-.icon-badge, .user-badge {
+/* line 54, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#features {
+  background-color: #0097E3;
+  padding: 100px 0;
+  color: white; }
+  /* line 58, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #features p {
+    padding-bottom: 30px; }
+  /* line 61, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #features img {
+    padding-bottom: 20px; }
+
+/* line 66, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#testimonials {
+  background-color: #F0F1F5;
+  padding-top: 60px;
+  position: relative; }
+
+/* line 72, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px 15px;
+  margin: 20px 0;
+  background-color: #fff; }
+  /* line 78, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  .card h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  /* line 84, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  .card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify; }
+
+/* line 92, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.scroll-btn {
+  font-size: 60px;
   position: absolute;
-  top: -5px;
-  right: -10px;
-  font-size: 10px;
+  left: 50%;
+  margin-left: -12px;
+  bottom: -100px; }
+
+/* line 100, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.scroll-up {
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  bottom: 20px; }
+
+/* line 108, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#histoire {
+  padding-top: 100px;
+  background-color: #000000;
   color: white;
-  line-height: 18px;
-  width: 18px;
-  text-align: center;
-  border-radius: 50%;
-  background: grey; }
-  /* line 22, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-  .icon-badge-red, .user-badge-red {
-    background: #EE5F5B; }
-  /* line 25, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-  .icon-badge-green, .user-badge-green {
-    background: #32B796; }
-  /* line 28, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-  .icon-badge-blue, .user-badge-blue {
-    background: #469AE0; }
-  /* line 31, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-  .icon-badge-black, .user-badge-black {
-    background: black; }
-  /* line 34, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_badge.scss */
-  .icon-badge-bordered, .user-badge-bordered {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    border: white 1px solid; }
+  padding-bottom: 120px; }
+  /* line 114, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  #histoire .orchi {
+    position: absolute;
+    top: 670px;
+    left: 0; }
+
+/* line 121, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.img-frise {
+  width: 300px; }
 
 /*
 ==============================================
