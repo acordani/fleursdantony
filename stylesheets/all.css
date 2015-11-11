@@ -9550,6 +9550,24 @@ a {
 .grey {
   color: #F0F1F5; }
 
+/* line 174, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.black {
+  color: black; }
+
+/* line 178, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.photo_carree {
+  width: 100%;
+  border: 1px solid white; }
+
+/* line 183, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+#savoir {
+  background-color: black;
+  height: 600px; }
+
+/* line 188, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.mt50 {
+  margin-top: 50px; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
