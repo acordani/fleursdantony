@@ -11,6 +11,7 @@
  * (see http://getbootstrap.com/customize/#less-variables)
  * ------------------------------------- */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(vendor/animate.css);
 /* line 9, /Users/alexandre/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -9518,8 +9519,8 @@ a {
   width: 300px; }
 
 /* line 135, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
-#facade {
-  background-image: url("../images/facade.JPG");
+#interieur {
+  background-image: url("../images/interieur.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -9567,6 +9568,14 @@ a {
 /* line 188, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .mt50 {
   margin-top: 50px; }
+
+/* line 192, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.pt30 {
+  padding-top: 30px; }
+
+/* line 196, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.pb30 {
+  padding-bottom: 30px; }
 
 /*
 ==============================================
