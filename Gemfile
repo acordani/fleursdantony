@@ -24,6 +24,9 @@ gem 'font-awesome-sass', '~> 4.2.0'
 # CSS performance
 gem 'middleman-autoprefixer'
 
+# Animation
+gem 'wow-rails'
+
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-scrollReveal.js'

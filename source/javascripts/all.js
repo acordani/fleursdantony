@@ -3,4 +3,5 @@
 //= require bootstrap-sprockets
 //= require scrollReveal.js
 //= require slick.js
+//= require wow
 //= require_tree .
