@@ -9399,35 +9399,34 @@ a {
   padding-bottom: 30px; }
   /* line 8, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 400;
-    padding-top: 250px;
     padding-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     text-transform: uppercase;
     color: white;
     height: auto;
     text-shadow: 2px 2px 2px black;
     margin-top: 0; }
-  /* line 21, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 20, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #banner h3 {
     color: white; }
-  /* line 24, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 23, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #banner a {
     margin: 0 50px 150px 40px; }
-  /* line 27, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 26, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #banner .fleur {
     position: absolute;
     top: 90px;
     width: 300px;
     z-index: 2;
     left: 850px; }
-  /* line 34, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 33, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #banner .text-banner {
     position: relative;
     z-index: 100; }
 
-/* line 42, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 41, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .h2_ban {
   font-size: 25px;
   font-weight: 300;
@@ -9435,58 +9434,58 @@ a {
   padding-left: 20px;
   color: white; }
 
-/* line 50, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 49, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .h1_hist {
   padding-top: 70px; }
 
-/* line 54, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 53, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .h2_hist {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
-/* line 59, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 58, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 #newsletter {
   padding: 100px 0; }
 
-/* line 65, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 64, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 #features {
   background-color: #0097E3;
   padding: 100px 0;
   color: white; }
-  /* line 69, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 68, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #features p {
     padding-bottom: 30px; }
-  /* line 72, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 71, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #features img {
     padding-bottom: 20px; }
 
-/* line 77, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 76, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 #testimonials {
   background-color: #F0F1F5;
   padding-top: 60px;
   position: relative; }
 
-/* line 83, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 82, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .card {
   border-radius: 2px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   padding: 20px 15px;
   margin: 20px 0;
   background-color: #fff; }
-  /* line 89, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 88, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   .card h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase; }
-  /* line 95, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 94, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   .card p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 300;
     text-align: justify; }
 
-/* line 103, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 102, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .scroll-btn {
   font-size: 60px;
   position: absolute;
@@ -9494,7 +9493,7 @@ a {
   margin-left: -12px;
   bottom: -100px; }
 
-/* line 111, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 110, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .scroll-up {
   font-size: 60px;
   position: absolute;
@@ -9502,23 +9501,23 @@ a {
   margin-left: -12px;
   bottom: 20px; }
 
-/* line 119, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 118, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 #histoire {
   padding-top: 100px;
   background-color: #000000;
   color: white;
   padding-bottom: 120px; }
-  /* line 125, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+  /* line 124, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
   #histoire .orchi {
     position: absolute;
     top: 670px;
     left: 0; }
 
-/* line 132, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 131, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .img-frise {
   width: 300px; }
 
-/* line 136, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 135, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 #facade {
   background-image: url("../images/facade.JPG");
   background-size: cover;
@@ -9526,7 +9525,7 @@ a {
   background-position: bottom;
   height: 600px; }
 
-/* line 144, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 143, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .gradientbox {
   background: linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
   opacity: 0.65;
@@ -9534,6 +9533,10 @@ a {
   height: 600px;
   width: 100%;
   z-index: 0; }
+
+/* line 157, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.logo {
+  margin-top: 150px; }
 
 /*
 ==============================================
