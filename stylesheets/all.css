@@ -9534,9 +9534,21 @@ a {
   width: 100%;
   z-index: 0; }
 
-/* line 157, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+/* line 158, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .logo {
   margin-top: 150px; }
+
+/* line 162, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.logo_noussituer {
+  margin-top: 60px; }
+
+/* line 166, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.white {
+  color: white; }
+
+/* line 170, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
+.grey {
+  color: #F0F1F5; }
 
 /*
 ==============================================
