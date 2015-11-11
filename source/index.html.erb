@@ -1,122 +1,17 @@
 ---
 title: Fleurs d'Antony
 ---
+<%= partial 'banner' %>
+<%= partial 'histoire' %>
 
-<div id="banner" class="text-center">
-  <div class="fleur hidden-xs hidden-sm"> <%= image_tag "fleur2.png" %> </div>
-    <div class ="text-banner">
-     <%= image_tag 'logo_white.png', class: "logo" %>
-    <h1> Design Floral</h1>
-    <h2 class="h2_ban">Fleuriste Décorateur Paris Evénementiel & Entreprises</h2>
-    <h3>Antony & Paris</h3>
-  </div>
-</div>
-
-  <!-- <a href="#map"><i class="fa fa-angle-down fa-6 pulse scroll-btn hidden-xs hidden-sm "></i></a>
-</div> -->
-  <!-- notre_histoire -->
-  <div id="histoire">
-    <div class="orchi hidden-xs hidden-sm"> <%= image_tag "orchidee.png" %> </div>
-    <div class="text-center">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6">
-            <h1 class="h1_hist"> Notre histoire </h1>
-
-            <h2 class="h2_hist">« Une Histoire de Famille »</h2>
-            <p class="mt30">
-              Artisan Fleuriste Décorateur, Laurence Martos réunit aujourd’hui deux enseignes animées par une famille exerçant depuis 1999.
-            </p>
-            <h2 class="mt30">Nos implantations</h2>
-            <p class="mt30">
-              « Paris & Antony » <br>
-              Au travers notre histoire & courbe d’expérience, nos implantations initialement situées à Arcueil (94) et Boulogne (92) ont laissé place au cours de l’année 2008 à deux enseignes situées sur Paris sud de manière à optimiser la proximité avec le marché international de Rungis offrant ainsi, à nos clients & partenaires, une véritable solution en matière de qualité & réactivité.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<%= partial 'map' %>
 
 
-  <!-- Map -->
-  <div id="map" style="width: 100%; height: 400px;"></div>
+<%= partial 'interieur' %>
 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<%= partial 'savoir' %>
 
-    <script type="text/javascript">
-    var myLatlng = new google.maps.LatLng(48.7563443,2.3025151);
-
-    var myOptions = {
-      zoom: 16,
-      center: myLatlng,
-      scrollwheel: false,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}] // TODO: replace [] by array from https://snazzymaps.com/
-    };
-
-    var map = new google.maps.Map(document.getElementById('map'), myOptions);
-    var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "You are here!"
-    });
-    </script>
-
- <div id="interieur">
-  <div class="gradientbox"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <%= image_tag 'logo_black.png', class: "logo_noussituer" %>
-        <h3>1 Rue Velpeau, 92160 Antony</h3>
-        <h4> Nous vous accueillons du lundi au samedi de 10h à 20h.</h4>          <h4> Et le dimanche de 10h à 19h</h4>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-md-6 col-md-offset-6 black">
-        En collaboration avec des professionnels de l’Hôtellerie, de la coiffure et du prêt à porter, traiteurs, nos formules d’abonnement sur mesure s’adaptent à votre espace et à votre budget.
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div id="savoir">
-<div class="wow">
-  <div class="container">
-    <div class="row mt50">
-      <div class="col-md-4">
-        <%= image_tag 'savoir1.jpg', class: "photo_carree wow slideInLeft" %>
-      </div>
-      <div class="col-md-4">
-        <%= image_tag 'savoir2.jpg', class: "photo_carree wow zoomIn" %>
-      </div>
-      <div class="col-md-4">
-        <%= image_tag 'savoir3.jpg', class: "photo_carree wow slideInRight" %>
-      </div>
-    </div>
-    <div class="row text-center pt30 pb30">
-      <h3 class="grey">Suivez notre actu sur <a href="https://www.facebook.com/fleursdantony">facebook</a></h3>
-  </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-    <script src='/js/scrollReveal.min.js'></script>
-    <script>
-
-      window.sr = new scrollReveal();
-
-    </script>
-
-    <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
+<script src='/js/scrollReveal.min.js'></script>
+<script>window.sr = new scrollReveal();</script>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
