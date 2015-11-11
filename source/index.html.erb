@@ -1,14 +1,26 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Fleurs d'Antony
 ---
 
 <div id="banner" class="text-center">
     <div class="fleur hidden-xs hidden-sm"> <%= image_tag "fleur2.png" %> </div>
     <div class ="text-banner">
+      <%= image_tag 'logo_white.png', class: "logo slideLeft" %>
       <h1> Design Floral</h1>
+
       <h2 class="h2_ban">Fleuriste Décorateur Paris Evénementiel & Entreprises</h2>
-      <h3>Paris & Antony</h3>
+      <h3>Antony & Paris</h3>
     </div>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 white">
+          Idéalement situées proche de Rungis, pour une fraicheur quotidienne.
+Notre équipe de 8 fleuristes est à votre disposition tous les jours de 8h30 à 20h. Nous vous proposons au fil des saisons des compositions florales personnalisées, chics et modernes en harmonie avec votre cadre.
+En collaboration avec des professionnels de l’Hôtellerie, de la coiffure et du prêt à porter, nos formules d’abonnement sur mesure s’adaptent à votre espace et à votre budget.
+        </div>
+      </div>
+    </div> -->
 </div>
 
   <!-- <a href="#map"><i class="fa fa-angle-down fa-6 pulse scroll-btn hidden-xs hidden-sm "></i></a>
@@ -27,7 +39,7 @@ title: Le Wagon Middleman boilerplate
 
             <h2 class="h2_hist">« Une Histoire de Famille »</h2>
             <p class="mt30">
-              Artisan Fleuriste Décorateur, Filipe Martins réunit aujourd’hui deux enseignes animées par une famille exerçant depuis 1999.
+              Artisan Fleuriste Décorateur, Laurence Martos réunit aujourd’hui deux enseignes animées par une famille exerçant depuis 1999.
             </p>
             <h2 class="mt30">Nos implantations</h2>
             <p class="mt30">
@@ -77,89 +89,59 @@ title: Le Wagon Middleman boilerplate
       title: "You are here!"
     });
     </script>
-  </div>
 
-
-
-    <!--<ul class="list-inline">
-    <% data.products.each do |product| %>
-      <li>
-        <%= image_tag product.image_file, class: "img-circle" %>
-        <p><%= product.content %></p>
-      </li>
-    <% end %>
-    </ul> -->
-  <div id="testimonials" class="padded">
-    <div class="container text-center">
-      <div class="row">
-        <% data.products.each do |product| %>
-          <div class="col-xs-12 col-sm-3 text-center">
-          <div class="card">
-            <%= image_tag product.image_file, class: "img-circle" %>
-            <p><%= product.content %></p>
-          </div>
-          </div>
-        <% end %>
+ <div id="facade">
+  <div class="gradientbox"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <%= image_tag 'logo_black.png', class: "logo_noussituer" %>
+        <h3>1 Rue Velpeau, 92160 Antony</h3>
+        <h4> Nous vous accueillons du lundi au samedi de 10h à 20h.</h4>          <h4> Et le dimanche de 10h à 19h</h4>
       </div>
     </div>
-    <a href="#banner"><i class="fa fa-arrow-up scroll-up"></i></a>
-  </div>
-
-
-
-
-  <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">C'est décidé, je pars ...</h4>
-          </div>
-          <div class="modal-body">
-            <form action='/'>
-              <div class="form-group">
-                <label for="first-name">Ton Prénom: </label>
-                <input type="name" class="form-control" id="first-name" placeholder="Martin">
-              </div>
-              <div class="form-group">
-                <label for="last-name">Ton Nom: </label>
-                <input type="name" class="form-control" id="last-name" placeholder="Dupond">
-              </div>
-              <div class="form-group">
-                <label for="email">Ton E-mail: </label>
-                <input type="email" class="form-control" id="email" placeholder="martin.dupond@gmail.com">
-              </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                    Je souhaite avoir des informations rapidement car je souhaite partir tout de suite
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                    Je souhaite partir dans les 3 mois.
-                  </label>
-                </div>
-                <div class="radio disabled">
-                  <label>
-                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                    Je souhaite partir dans l'année
-                  </label>
-                </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6 black">
+        En collaboration avec des professionnels de l’Hôtellerie, de la coiffure et du prêt à porter, traiteurs, nos formules d’abonnement sur mesure s’adaptent à votre espace et à votre budget.
       </div>
     </div>
+  </div>
+</div>
+
+
+<div id="savoir">
+<div class="wow">
+  <div class="container">
+    <div class="row mt50">
+      <div class="col-md-4">
+        <%= image_tag 'savoir1.jpg', class: "photo_carree wow bounceInUp" %>
+      </div>
+      <div class="col-md-4">
+        <%= image_tag 'savoir2.jpg', class: "photo_carree" %>
+      </div>
+      <div class="col-md-4">
+        <%= image_tag 'savoir3.jpg', class: "photo_carree" %>
+      </div>
+    </div>
+    <div class="row text-center pt30 pb30">
+      <h3 class="grey">Suivez notre actu sur <a href="https://www.facebook.com/fleursdantony">facebook</a></h3>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
     <script src='/js/scrollReveal.min.js'></script>
     <script>
 
       window.sr = new scrollReveal();
 
     </script>
+
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>

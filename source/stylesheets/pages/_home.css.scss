@@ -6,11 +6,10 @@
   padding-bottom:30px;
 
     h1 {
-    font-size:50px;
+    font-size:20px;
     font-weight: 400;
-    padding-top: 250px;
     padding-left: 20px;
-    padding-bottom:30px;
+    padding-bottom:50px;
     text-transform: uppercase;
     color: white;
     height: auto;
@@ -133,4 +132,68 @@
   width:300px;
 }
 
+#facade {
+    background-image: image-url('facade.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 600px;
+}
+
+.gradientbox {
+    background: -webkit-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
+    background: -moz-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
+    background: -ms-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
+    background: -o-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
+    background: linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
+    // background: rgba(0,0,0,0.7);
+    opacity: 0.65;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+
+
+.logo {
+  margin-top: 150px;
+}
+
+.logo_noussituer {
+  margin-top:60px;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+color: #F0F1F5;
+}
+
+.black {
+  color: black;
+}
+
+.photo_carree {
+  width:100%;
+  border: 1px solid white;
+}
+
+#savoir {
+  background-color: black;
+  height:600px;
+}
+
+.mt50 {
+  margin-top:50px;
+}
+
+.pt30 {
+  padding-top:30px;
+}
+
+.pb30 {
+  padding-bottom:30px;
+}
 
