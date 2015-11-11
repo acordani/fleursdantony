@@ -27,6 +27,8 @@ gem 'middleman-autoprefixer'
 # Animation
 gem 'wow-rails'
 
+# Favicon
+gem "middleman-favicon-maker", "~> 3.7"
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-scrollReveal.js'
