@@ -9326,25 +9326,41 @@ a {
 @media (min-width: 641px) and (max-width: 960px) {
   /* line 2, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   h1 {
-    padding-top: 150px !important; } }
+    padding-top: 0px !important; }
+
+  /* line 6, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  #interieur {
+    height: 100%; }
+
+  /* line 10, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  #savoir {
+    height: 100%; } }
 @media (min-width: 320px) and (max-width: 640px) {
-  /* line 8, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  /* line 16, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   h1 {
     padding-top: 65px !important; }
 
-  /* line 12, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  /* line 20, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   .h2_ban {
     padding-bottom: 50px !important; }
 
-  /* line 17, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  /* line 25, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   #histoire {
     padding-top: 0px !important; }
 
-  /* line 21, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  /* line 29, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   .h1_hist {
-    padding-top: 10px !important; } }
+    padding-top: 10px !important; }
+
+  /* line 32, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  #interieur {
+    height: 100%; }
+
+  /* line 36, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  #savoir {
+    height: 100%; } }
 @media (min-width: 1025px) {
-  /* line 27, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  /* line 43, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   h1 {
     font-size: 70px; } }
 /* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
