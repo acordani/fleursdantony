@@ -9358,9 +9358,19 @@ a {
 
   /* line 36, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   #savoir {
-    height: 100%; } }
+    height: 100%; }
+
+  /* line 40, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  .logo {
+    width: 280px;
+    height: auto; }
+
+  /* line 45, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  .logo_noussituer {
+    width: 280px;
+    height: auto; } }
 @media (min-width: 1025px) {
-  /* line 43, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
+  /* line 53, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   h1 {
     font-size: 70px; } }
 /* line 1, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_contact.css.scss */
