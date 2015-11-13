@@ -9346,7 +9346,7 @@ a {
 
   /* line 25, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   #histoire {
-    padding-top: 0px !important; }
+    padding-top: 50px !important; }
 
   /* line 29, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/components/_mediaqueries.css.scss */
   .h1_hist {
@@ -9585,8 +9585,7 @@ a {
 
 /* line 184, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 #savoir {
-  background-color: black;
-  height: 540px; }
+  background-color: black; }
 
 /* line 189, /Users/alexandre/code/acordani/fleursdantony/source/stylesheets/pages/_home.css.scss */
 .mt50 {
