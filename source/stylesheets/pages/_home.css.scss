@@ -134,13 +134,15 @@
 
 #interieur {
     background-image: image-url('interieur.jpg');
+    padding:O;
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom;
-    height: 470px;
+    background-repeat: no-repeat;
+    background-position: top-center;
 }
 
 .gradientbox {
+    // background-color: rgba(15,155,224, 0.78);
     background: -webkit-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
     background: -moz-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
     background: -ms-linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
@@ -148,10 +150,9 @@
     background: linear-gradient(90deg, #8e9eab 10%, #eef2f3 90%);
     // background: rgba(0,0,0,0.7);
     opacity: 0.65;
-    position: absolute;
-    height: 470px;
-    width: 100%;
-    z-index: 0;
+    // height: 470px;
+    // width: 100%;
+    // z-index: 100;
 }
 
 
