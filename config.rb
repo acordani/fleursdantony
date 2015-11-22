@@ -101,7 +101,7 @@ configure :build do
     }
   end
 
-
+  activate :meta_tags
 
 end
 
