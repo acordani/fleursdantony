@@ -31,7 +31,7 @@ gem 'wow-rails'
 gem "middleman-favicon-maker", "~> 3.7"
 
 # Meta Tags
-gem 'middleman-meta-tags'
+# gem 'middleman-meta-tags'
 
 
 
